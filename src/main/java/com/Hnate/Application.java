@@ -11,7 +11,9 @@ public class Application {
 //		CURD_Operations.deleteRecord(1);
 //		CURD_Operations.getAllRecords();
 //		CURD_Operations.searchReacordByFirstname("Aravind");
-		CURD_Operations.searchReacordByLastname("Surineni");
+//		CURD_Operations.searchReacordByLastname("Surineni");
+//		NativeQueryExp.deleteRecordWithNativeQuery(3);
+		NativeQueryExp.searchRecordByFirstTwoCharacters("Pr");
 	}
 
 }
