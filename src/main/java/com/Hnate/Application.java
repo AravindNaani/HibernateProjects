@@ -1,6 +1,6 @@
 package com.Hnate;
 
-import com.NamedQueries.NamedQueryExp;
+import com.EmbeddedIdExp.StudentUtil;
 
 public class Application {
 
@@ -17,7 +17,9 @@ public class Application {
 //		NativeQueryExp.deleteRecordWithNativeQuery(3);
 //		NativeQueryExp.searchRecordByFirstTwoCharacters("Pr");
 //		NamedQueryExp.getRecords();
-		NamedQueryExp.updateRecord(1, "Aravi");
+//		NamedQueryExp.updateRecord(1, "Aravind");
+//	    StudentUtil.insertEmbeddedRecord();
+		StudentUtil.readEmbeddedRecords(2);
 	}
 
 }

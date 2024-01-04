@@ -4,6 +4,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import com.EmbeddedIdExp.Student;
+import com.EmbeddedIdExp.StudentID;
 import com.NamedQueries.User;
 
 public class Util {
@@ -16,6 +18,7 @@ public class Util {
 				cfg.configure("hibernate.cfg.xml");
 				cfg.addAnnotatedClass(Employee.class);
 				cfg.addAnnotatedClass(User.class);
+				cfg.addAnnotatedClass(Student.class);
 				sessionFactory = cfg.buildSessionFactory();
 				return sessionFactory.openSession();
 			}
