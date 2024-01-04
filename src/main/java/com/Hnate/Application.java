@@ -1,5 +1,7 @@
 package com.Hnate;
 
+import com.NamedQueries.NamedQueryExp;
+
 public class Application {
 
 	public static void main(String[] args) {
@@ -13,7 +15,9 @@ public class Application {
 //		CURD_Operations.searchReacordByFirstname("Aravind");
 //		CURD_Operations.searchReacordByLastname("Surineni");
 //		NativeQueryExp.deleteRecordWithNativeQuery(3);
-		NativeQueryExp.searchRecordByFirstTwoCharacters("Pr");
+//		NativeQueryExp.searchRecordByFirstTwoCharacters("Pr");
+//		NamedQueryExp.getRecords();
+		NamedQueryExp.updateRecord(1, "Aravi");
 	}
 
 }
