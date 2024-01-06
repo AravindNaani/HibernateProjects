@@ -1,6 +1,7 @@
 package com.Hnate;
 
 import com.EmbeddedIdExp.StudentUtil;
+import com.Relations.UsersUtil;
 
 public class Application {
 
@@ -19,7 +20,8 @@ public class Application {
 //		NamedQueryExp.getRecords();
 //		NamedQueryExp.updateRecord(1, "Aravind");
 //	    StudentUtil.insertEmbeddedRecord();
-		StudentUtil.readEmbeddedRecords(2);
+//		StudentUtil.readEmbeddedRecords(2);
+		UsersUtil.insertRecordR();
 	}
 
 }
